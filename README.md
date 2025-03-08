@@ -37,6 +37,11 @@ O **elemento** **`<a>`** em **HTML** (ou elemento âncora), com o atributo�
 
 O **elemento** `<img>`  representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento [`<figure>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/figure) e [`<figcaption>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/figcaption). É usado com o complemento `src` (source)
 
+### <div>
+A tag `<div>` serve para criar seções de códigos, na qual possui hierarquia. Pode ser classificado e identificado do seguinte modo: `<div class="[nome da classe]">` | `<div id="[nome do identificador]">`.
+- Para referenciar no CSS um id, usa-se `#topo{}`
+- Para referenciar no CSS uma class, usa-se `.topo{}`
+
 As tags de texto possuem pré configuração de quebra de texto, já as tags de links não possuem, então os links ficarão um do lado do outro por padrão. Para deixar um embaixo do outro (com quebra de texto) podemos aninhar as tags de link com tag de texto, no caso usar <a> dentro de um <p>
 
 ```html
@@ -118,3 +123,7 @@ Acessar via "link -> link:favicon"
 
 Usados para estilização SEMPRE dentro do head
 Usado para referenciar links externos
+
+```
+Quando não se tem um nome de parâmetros se usa "#". Isso evita problemas no servidor
+```
