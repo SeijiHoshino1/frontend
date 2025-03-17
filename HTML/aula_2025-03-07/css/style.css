@@ -1,0 +1,32 @@
+body{
+    background-color: cadetblue;
+}
+
+/*se for id*/
+#topo{
+    background-color: #314c6b;
+}
+
+/*se for class*/
+.topo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.topo ul{
+    display: flex;
+    list-style: none;
+}
+
+.topo a:hover{
+    background-color: rgb(98, 0, 255);
+    border-radius: 5px;
+}
