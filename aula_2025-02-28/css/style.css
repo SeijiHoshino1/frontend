@@ -1,0 +1,14 @@
+h2{
+    color: rgb(0, 7, 104);
+}
+body{
+    background-color: rgb(223, 230, 139); color: burlywood;
+}
+
+.texto-vermelho{
+    background-color: black; color: aqua;
+}
+
+#paragrafo{
+    color: blueviolet;
+}
